@@ -92,9 +92,11 @@ while True:
             new_priority = input("Enter new priority: ")
             new_status = input("Enter new status: ")
             result = task_operation(task_id, new_title, new_description, new_priority, new_status)
-
+    elif choice == 3:
+        task_id=int(input("Enter the i'd:"))
+        result = task_operation(task_id)
         if result:
-            print("Operation successful")
+            print("Task deleted successfully")
         else:
             print("Task not found")
     elif choice == 4:
@@ -103,7 +105,7 @@ while True:
     elif choice == 5:
         priority = input("Enter priority to filter: ")
         filtered_tasks = task_operation(priority)
-        print("Filtered tasks:")
+        print("\n Filtered tasks:")
         for task in filtered_tasks:
             print(task)
     else:
