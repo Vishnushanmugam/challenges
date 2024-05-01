@@ -93,7 +93,7 @@ while True:
             new_status = input("Enter new status: ")
             result = task_operation(task_id, new_title, new_description, new_priority, new_status)
     elif choice == 3:
-        task_id=int(input("Enter the i'd:"))
+        task_id=int(input("Enter the Delete i'd:"))
         result = task_operation(task_id)
         if result:
             print("Task deleted successfully")
