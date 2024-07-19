@@ -3,4 +3,4 @@ def only_ints(s,t):
        return True
     else :
         return False
-print(only_ints(55,4))
+print(only_ints(55,4)) 
