@@ -7,4 +7,4 @@ def mid(a):
         r = int(l/2)
         return b[r] 
 
-print(mid("abcd"))
+print(mid("abcd")) 
