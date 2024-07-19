@@ -9,6 +9,8 @@ def online_count(a):
     for i in a:
         if a[i]=="online":
             c+=1
-    return c
+            l.append(i)
+        print(f"There are {c} person in online")
+    return l
 
 print(online_count(statuses))
