@@ -9,8 +9,6 @@ Head.geometry("370x405")
 
 main=tk.Frame(Head, bg='yellow',pady=20,padx=20)
 main.place(x=4,y=9,height=95, width=360)
-# main.pack(fill='both', expand=True)
-
 
 def onclick(give):
     textbox.insert(tk.END,give)
@@ -39,8 +37,6 @@ textbox.place(x=-12,y=-12,height=75,width=270)
 AC_button=tk.Button(Head, text='AC',borderwidth='2px',command=clear)
 AC_button.place(x=295,y=25, height=60, width=60)
 
-
-# WANT TO ADD ADD,SUB,MUL,DIVISION,MODULO,EQUAL,PLUS/MINUS
 
 btns_frame=tk.Frame(Head, bg='black', pady=20,padx=20)
 btns_frame.place(x=5,y=110 ,height=290, width=360)
